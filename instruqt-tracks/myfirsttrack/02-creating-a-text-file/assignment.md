@@ -1,6 +1,6 @@
 ---
 slug: creating-a-text-file
-id: nsxltk6vcnlu
+id: z7wxufzgijue
 type: challenge
 title: Creating a text file
 teaser: A short description of the challenge.
