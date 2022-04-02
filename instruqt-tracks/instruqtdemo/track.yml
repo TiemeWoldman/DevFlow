@@ -1,7 +1,7 @@
-slug: instruqtdemo
-id: jum7k2jboetj
+slug: instruqtdemo-dev
+id: t30erbqx0ubm
 type: track
-title: InstruqtDemo
+title: DEV - InstruqtDemo
 teaser: Get started quickly with just one container-based sandbox host.
 description: Get started quickly with a container-based sandbox host. Choose a container
   when you need a fast, lightweight Linux system.
@@ -16,4 +16,4 @@ private: false
 published: true
 show_timer: true
 skipping_enabled: true
-checksum: "2042081488149925408"
+checksum: "1015733968543630418"
