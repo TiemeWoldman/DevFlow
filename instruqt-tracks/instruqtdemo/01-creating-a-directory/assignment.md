@@ -1,21 +1,20 @@
 ---
 slug: creating-a-directory
-id: ilqqxcdqlvc7
 type: challenge
 title: Creating a directory
 teaser: Learn how to create a directory in Ubuntu
 notes:
-- type: text
-  contents: Please wait while we set up your first challenge
+  - type: text
+    contents: Please wait while we set up your first challenge ever
 tabs:
-- title: Shell
-  type: terminal
-  hostname: container
+  - title: Shell
+    type: terminal
+    hostname: container
 difficulty: basic
 timelimit: 600
 ---
 
-👉 Instruqtdemo - create a directory in Ubuntu
+👉 Instruqtdemo - create a new directory in Ubuntu
 ==============
 
 Create a directory with the name `instruqtdemo` to complete this challenge.
