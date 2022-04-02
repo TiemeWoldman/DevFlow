@@ -1,0 +1,2 @@
+#!/bin/bash -x
+echo $INSTRUQT_USER_NAME started challenge $INSTRUQT_CHALLENGE_ID

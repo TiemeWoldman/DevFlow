@@ -1,0 +1,18 @@
+slug: myfirsttrack
+id: baekpuxv2m5g
+type: track
+title: MyFirstTrack
+teaser: Get started quickly with just one container-based sandbox host.
+description: Get started quickly with a container-based sandbox host. Choose a container
+  when you need a fast, lightweight Linux system.
+icon: https://cdn.instruqt.com/assets/templates/ubuntu.png
+tags: []
+owner: tieme
+developers:
+- woldman@tw-applicatiebouw.nl
+private: true
+published: true
+maintenance: true
+show_timer: true
+skipping_enabled: true
+checksum: "5128816757881422584"

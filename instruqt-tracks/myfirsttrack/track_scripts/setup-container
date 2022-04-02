@@ -1,0 +1,33 @@
+#!/bin/bash
+# This set line ensures that all failures will cause the script to error and exit
+set -euxo pipefail
+
+# Here we are installing the nginx package. The noninteractive setting ensures
+# that the apt command won't stop and ask for user input.
+apt -y update
+DEBIAN_FRONTEND=noninteractive apt -y install nginx
+
+# Remove the default nginx page and replace it with our own
+rm /var/www/html/index.nginx-debian.html
+
+# This cat/EOF trick renders a new index file. This code creates really simple
+# website that shows pictures of cats. Everything between the EOF markers will
+# end up in the /var/www/html/index.html file
+cat >> /var/www/html/index.html <<-EOF
+<html>
+  <head><title>Meow!</title></head>
+  <body>
+  <div style="width:800px;margin: 0 auto">
+  <!-- BEGIN -->
+  <center><img src="http://placekitten.com/640/480"></img></center>
+  <center><h2>Meow World!</h2></center>
+  <center>Welcome to the Meow World application. A special welcome to all the dogs. Meow! =^._.^=</center>
+  <!-- END -->
+  
+  </div>
+  </body>
+</html>
+EOF
+
+# Start up nginx
+service nginx start

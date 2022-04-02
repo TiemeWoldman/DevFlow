@@ -1,0 +1,2 @@
+#!/bin/bash -x
+echo the participant is $INSTRUQT_PARTICIPANT_ID

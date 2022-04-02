@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# This script runs when the track ends.
+#
+# This set line ensures that all failures will cause the script to error and exit
+set -euxo pipefail
+
+service nginx stop
